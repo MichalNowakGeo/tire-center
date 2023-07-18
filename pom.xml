@@ -10,9 +10,9 @@
     </parent>
     <groupId>pl.michalnowak</groupId>
     <artifactId>tirecenter</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>tire-center</name>
-    <description>Api managing the work of the tire workshop</description>
+    <description>tire-workshop-api</description>
     <properties>
         <java.version>17</java.version>
         <org.mapstruct.version>1.5.5.Final</org.mapstruct.version>
@@ -82,6 +82,8 @@
         </dependency>
     </dependencies>
 
+
+
     <build>
         <plugins>
             <plugin>
@@ -129,6 +131,8 @@
                 </configuration>
             </plugin>
         </plugins>
+
+
     </build>
 
 </project>

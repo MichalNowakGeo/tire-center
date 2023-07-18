@@ -5,6 +5,7 @@ server:
 ### APPLICATION CONFIG
 application:
   version: @project.version@
+  name: @project.artifactId@
 
 spring:
   profiles:
